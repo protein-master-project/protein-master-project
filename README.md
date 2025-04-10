@@ -1,6 +1,6 @@
 # protein-master-project
 
-## Prerequest
+## Prerequirement
 ```
 ➜  protein-master-project git:(main) ✗ npm -v      
 10.9.2
