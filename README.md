@@ -24,5 +24,5 @@ git submodule update
 ```
 
 ## Start Backend & frontend
-
-
+[Backend](./backend/README.md) <br>
+[Frontend](./frontend/README.md)
