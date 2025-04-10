@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/protein-master-project/protein-master.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/protein-master-project/front_end.git
