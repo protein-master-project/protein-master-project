@@ -17,6 +17,20 @@ pip 24.3.1
 ./build.sh
 ```
 
+If you find something like this in the terminal, it means the startup is successful.
+```
+Frontend environment setup complete.
+Starting the backend server...
+Backend server started with PID=99673
+Starting the frontend development server...
+Frontend server started with PID=99674
+Both servers have been started. Waiting for processes to finish...
+```
+
+Then, please visit `http://localhost:3000/` in your browser. You should see a page like this:
+
+![](./images/homepage.png)
+
 ## Init Submodules
 ```
 git submodule init
