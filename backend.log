@@ -1,12 +1,14 @@
-Traceback (most recent call last):
-  File "/Users/lhz/protein-master/protein-master-project/backend/run.py", line 1, in <module>
-    from app import app
-  File "/Users/lhz/protein-master/protein-master-project/backend/app/__init__.py", line 7, in <module>
-    from app import routes_api
-  File "/Users/lhz/protein-master/protein-master-project/backend/app/routes_api.py", line 4, in <module>
-    from connecter import ConnectorFactory
-  File "/Users/lhz/protein-master/protein-master-project/backend/connecter/__init__.py", line 2, in <module>
-    from .rcsb import RCSBConnector
-  File "/Users/lhz/protein-master/protein-master-project/backend/connecter/rcsb.py", line 2, in <module>
-    from rcsbapi.search import TextQuery
-ModuleNotFoundError: No module named 'rcsbapi.search'
+ * Serving Flask app 'app'
+ * Debug mode: off
+2025-04-10 12:07:36,874 [INFO]-_internal._log: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.247.250.127:8080
+2025-04-10 12:07:36,874 [INFO]-_internal._log: [33mPress CTRL+C to quit[0m
+2025-04-10 12:07:39,474 [INFO]-_internal._log: 127.0.0.1 - - [10/Apr/2025 12:07:39] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-10 12:07:39,658 [INFO]-_internal._log: 127.0.0.1 - - [10/Apr/2025 12:07:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 12:07:44,626 [INFO]-_internal._log: 127.0.0.1 - - [10/Apr/2025 12:07:44] "GET /search?keyword=test&db=rcsb HTTP/1.1" 200 -
+2025-04-10 12:07:50,324 [INFO]-_internal._log: 127.0.0.1 - - [10/Apr/2025 12:07:50] "GET /search?keyword=test&db=rcsb HTTP/1.1" 200 -
+2025-04-10 12:07:53,059 [INFO]-_internal._log: 127.0.0.1 - - [10/Apr/2025 12:07:53] "GET /search?keyword=5O4X&db=rcsb HTTP/1.1" 200 -
+2025-04-10 12:07:54,646 [INFO]-_internal._log: 127.0.0.1 - - [10/Apr/2025 12:07:54] "GET /raw?pdb_id=5O4X&db=rcsb HTTP/1.1" 200 -
+2025-04-10 12:07:54,734 [INFO]-_internal._log: 127.0.0.1 - - [10/Apr/2025 12:07:54] "GET /raw?pdb_id=5O4X&db=rcsb HTTP/1.1" 200 -

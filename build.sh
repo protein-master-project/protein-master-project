@@ -5,6 +5,7 @@
 ############################################
 echo "Initializing and updating git submodules..."
 git submodule update --init --recursive
+git submodule update --remote
 echo "Submodules initialized."
 
 ############################################
