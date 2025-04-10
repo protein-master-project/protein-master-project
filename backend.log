@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/lhz/protein-master/protein-master-project/backend/run.py", line 1, in <module>
+    from app import app
+  File "/Users/lhz/protein-master/protein-master-project/backend/app/__init__.py", line 7, in <module>
+    from app import routes_api
+  File "/Users/lhz/protein-master/protein-master-project/backend/app/routes_api.py", line 4, in <module>
+    from connecter import ConnectorFactory
+  File "/Users/lhz/protein-master/protein-master-project/backend/connecter/__init__.py", line 2, in <module>
+    from .rcsb import RCSBConnector
+  File "/Users/lhz/protein-master/protein-master-project/backend/connecter/rcsb.py", line 2, in <module>
+    from rcsbapi.search import TextQuery
+ModuleNotFoundError: No module named 'rcsbapi.search'
