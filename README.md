@@ -31,6 +31,9 @@ Then, please visit `http://localhost:3000/` in your browser. You should see a pa
 
 ![](./images/homepage.png)
 
+For example, you can try ProteinID: 504X. Then you can go to the following page:
+![](./images/protein.png)
+
 ## Init Submodules
 ```
 git submodule init
