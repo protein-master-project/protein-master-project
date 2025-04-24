@@ -44,7 +44,7 @@ Then, please visit `http://localhost:3000/` in your browser. You should see a pa
 
 ![](./images/homepage.png)
 
-For example, you can try ProteinID: 7B3Y. Then you can go to the following page:
+For example, you can try ProteinID: 7B3Y or keyword 'covid'. Then you can go to the following page:
 ![](./images/result_page.png)
 
 ## Init Submodules
