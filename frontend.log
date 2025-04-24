@@ -2,161 +2,20 @@
 > proteinmaster@0.1.0 start
 > react-scripts start
 
-(node:78533) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:55783) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:78533) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:55783) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
 Compiled with warnings.
 
 Failed to parse source map from '/Users/lhz/protein-master-project/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/lhz/protein-master-project/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
 
-[eslint] 
-src/App.js
-  Line 2:50:  'Navigate' is defined but never used     no-unused-vars
-  Line 7:8:   'ResultsPage' is defined but never used  no-unused-vars
-
-src/BarContrastView.js
-  Line 28:6:  React Hook useEffect has a missing dependency: 'renderSecondaryStructure'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-
-src/ContactMatrixViewer.js
-  Line 2:13:   'THREE' is defined but never used                                                                                                                                                                                                                              no-unused-vars
-  Line 41:9:   'interpolateColor' is assigned a value but never used                                                                                                                                                                                                          no-unused-vars
-  Line 194:6:  React Hook useEffect has missing dependencies: 'getMintGreenRGB' and 'renderCanvas'. Either include them or remove the dependency array                                                                                                                        react-hooks/exhaustive-deps
-  Line 274:6:  React Hook useEffect has a missing dependency: 'renderCanvas'. Either include it or remove the dependency array                                                                                                                                                react-hooks/exhaustive-deps
-  Line 303:6:  React Hook useEffect has a missing dependency: 'proteinDataUpdateHandle'. Either include it or remove the dependency array. If 'proteinDataUpdateHandle' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
-  Line 310:6:  React Hook useEffect has a missing dependency: 'renderCanvas'. Either include it or remove the dependency array                                                                                                                                                react-hooks/exhaustive-deps
-
-src/MolstarViewer.js
-  Line 13:34:   'MolScriptBuilder' is defined but never used                                                               no-unused-vars
-  Line 124:6:   React Hook useEffect has a missing dependency: 'pdbUrl'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-  Line 201:20:  The Function constructor is eval                                                                           no-new-func
-
-src/QueryAgentView.js
-  Line 54:3:    React Hook useMemo has a missing dependency: 'molql'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-  Line 130:23:  Expected '===' and instead saw '=='                                                                     eqeqeq
-
-src/ResultsPage.js
-  Line 89:10:  'query' is assigned a value but never used  no-unused-vars
-
-src/background-animation/BackgroundAnimation.js
-  Line 34:18:   'cycleAccent' is assigned a value but never used                                                           no-unused-vars
-  Line 68:154:  React Hook useMemo has a missing dependency: 'position'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-
-src/background-animation/realism-effects/v2.js
-  Line 279:28:   Invalid typeof comparison value                                                                                    valid-typeof
-  Line 829:39:   Unexpected mix of '>>' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 829:50:   Unexpected mix of '>>' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 834:39:   Unexpected mix of '<<' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 834:45:   Unexpected mix of '<<' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 2061:3:   Expected getter 'texture' to always return a value                                                                 getter-return
-  Line 2062:5:   Expected a default case                                                                                            default-case
-  Line 2289:7:   Expected a default case                                                                                            default-case
-  Line 2302:9:   Duplicate case label                                                                                               no-duplicate-case
-  Line 2334:32:  Expected '!==' and instead saw '!='                                                                                eqeqeq
-  Line 2369:12:  Function declared in a loop contains unsafe references to variable(s) 'needsUpdate', 'needsUpdate', 'needsUpdate'  no-loop-func
-  Line 2395:13:  Duplicate case label                                                                                               no-duplicate-case
-  Line 2396:13:  Duplicate case label                                                                                               no-duplicate-case
-  Line 2615:30:  Expected '!==' and instead saw '!='                                                                                eqeqeq
-  Line 2676:11:  Expected a default case                                                                                            default-case
-
 Search for the keywords to learn more about each warning.
 To ignore, add // eslint-disable-next-line to the line before.
-
-LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/molstar-style/light.scss
-<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
-<w> 
-<w> More info: https://sass-lang.com/d/legacy-js-api
-<w> 
-<w> null
-<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-<w> 
-<w> More info and automated migrator: https://sass-lang.com/d/import
-<w> 
-<w> src/molstar-style/light.scss 1:9  root stylesheet
-<w> 
-<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-<w> 
-<w> More info and automated migrator: https://sass-lang.com/d/import
-<w> 
-<w> src/molstar-style/light.scss 2:9  root stylesheet
-<w> 
-<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-<w> 
-<w> More info and automated migrator: https://sass-lang.com/d/import
-<w> 
-<w> src/molstar-style/base/base.scss 20:13  @import
-<w> src/molstar-style/light.scss 2:9        root stylesheet
-<w> 
-<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-<w> 
-<w> More info and automated migrator: https://sass-lang.com/d/import
-<w> 
-<w> src/molstar-style/base/base.scss 22:13  @import
-<w> src/molstar-style/light.scss 2:9        root stylesheet
-<w> 
-<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-<w> 
-<w> More info and automated migrator: https://sass-lang.com/d/import
-<w> 
-<w> src/molstar-style/base/base.scss 24:13  @import
-<w> src/molstar-style/light.scss 2:9        root stylesheet
-<w> 
-<w> 22 repetitive deprecation warnings omitted.
-<w> 
-<w> null
 
 WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
 Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
 Failed to parse source map from '/Users/lhz/protein-master-project/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/lhz/protein-master-project/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
 
-WARNING in [eslint] 
-src/App.js
-  Line 2:50:  'Navigate' is defined but never used     no-unused-vars
-  Line 7:8:   'ResultsPage' is defined but never used  no-unused-vars
-
-src/BarContrastView.js
-  Line 28:6:  React Hook useEffect has a missing dependency: 'renderSecondaryStructure'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-
-src/ContactMatrixViewer.js
-  Line 2:13:   'THREE' is defined but never used                                                                                                                                                                                                                              no-unused-vars
-  Line 41:9:   'interpolateColor' is assigned a value but never used                                                                                                                                                                                                          no-unused-vars
-  Line 194:6:  React Hook useEffect has missing dependencies: 'getMintGreenRGB' and 'renderCanvas'. Either include them or remove the dependency array                                                                                                                        react-hooks/exhaustive-deps
-  Line 274:6:  React Hook useEffect has a missing dependency: 'renderCanvas'. Either include it or remove the dependency array                                                                                                                                                react-hooks/exhaustive-deps
-  Line 303:6:  React Hook useEffect has a missing dependency: 'proteinDataUpdateHandle'. Either include it or remove the dependency array. If 'proteinDataUpdateHandle' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
-  Line 310:6:  React Hook useEffect has a missing dependency: 'renderCanvas'. Either include it or remove the dependency array                                                                                                                                                react-hooks/exhaustive-deps
-
-src/MolstarViewer.js
-  Line 13:34:   'MolScriptBuilder' is defined but never used                                                               no-unused-vars
-  Line 124:6:   React Hook useEffect has a missing dependency: 'pdbUrl'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-  Line 201:20:  The Function constructor is eval                                                                           no-new-func
-
-src/QueryAgentView.js
-  Line 54:3:    React Hook useMemo has a missing dependency: 'molql'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-  Line 130:23:  Expected '===' and instead saw '=='                                                                     eqeqeq
-
-src/ResultsPage.js
-  Line 89:10:  'query' is assigned a value but never used  no-unused-vars
-
-src/background-animation/BackgroundAnimation.js
-  Line 34:18:   'cycleAccent' is assigned a value but never used                                                           no-unused-vars
-  Line 68:154:  React Hook useMemo has a missing dependency: 'position'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
-
-src/background-animation/realism-effects/v2.js
-  Line 279:28:   Invalid typeof comparison value                                                                                    valid-typeof
-  Line 829:39:   Unexpected mix of '>>' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 829:50:   Unexpected mix of '>>' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 834:39:   Unexpected mix of '<<' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 834:45:   Unexpected mix of '<<' and '|'. Use parentheses to clarify the intended order of operations                        no-mixed-operators
-  Line 2061:3:   Expected getter 'texture' to always return a value                                                                 getter-return
-  Line 2062:5:   Expected a default case                                                                                            default-case
-  Line 2289:7:   Expected a default case                                                                                            default-case
-  Line 2302:9:   Duplicate case label                                                                                               no-duplicate-case
-  Line 2334:32:  Expected '!==' and instead saw '!='                                                                                eqeqeq
-  Line 2369:12:  Function declared in a loop contains unsafe references to variable(s) 'needsUpdate', 'needsUpdate', 'needsUpdate'  no-loop-func
-  Line 2395:13:  Duplicate case label                                                                                               no-duplicate-case
-  Line 2396:13:  Duplicate case label                                                                                               no-duplicate-case
-  Line 2615:30:  Expected '!==' and instead saw '!='                                                                                eqeqeq
-  Line 2676:11:  Expected a default case                                                                                            default-case
-
-webpack compiled with 2 warnings
+webpack compiled with 1 warning
