@@ -54,5 +54,5 @@ git submodule update
 ```
 
 ## Start Backend & frontend
-[Backend](./backend/README.md) <br>
-[Frontend](./frontend/README.md)
+[Backend](https://github.com/protein-master-project/protein-master-backend) <br>
+[Frontend](https://github.com/protein-master-project/front_end)
