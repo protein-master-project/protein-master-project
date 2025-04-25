@@ -47,7 +47,7 @@ Then, please visit `http://localhost:3000/` in your browser. You should see a pa
 For example, you can try ProteinID: 7B3Y or keyword 'covid'. Then you can go to the following page:
 ![](./images/result_page.png)
 
-You can use uuman hemoglobin and dog hemoglobin for comparison: 3GOU, 2HHB
+You can use human hemoglobin and dog hemoglobin for comparison: 3GOU, 2HHB
 ![](./images/comparison.png)
 ## Init Submodules
 ```
